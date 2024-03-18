@@ -1,0 +1,117 @@
+body
+{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label
+{
+    color: aliceblue;
+     
+}
+form
+{
+     background-color: rgb(100, 100, 100);
+     height: 411px;
+      width: 509px;
+      display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 84px;
+    border: 2px solid;
+    border-color: aquamarine;
+     
+}
+ div{
+    display: inline-block;
+    margin-top:37px;
+ }
+ label
+ {
+    align-items: center;
+   position: relative;
+    margin-left: 58px;
+
+ }
+ input
+ {
+    background-color: black;
+    color: azure;
+    position: relative;
+    margin-left: 107px;
+    border-radius: 8px;
+    border-color: aqua;
+    width: 271px;
+    height: 29px;
+     
+ }
+ textarea
+ {
+    background-color: black;
+    color: azure;
+    position: relative;
+    margin-left: 105px;
+    border-radius: 8px;
+    border-color: aqua;
+    margin-top: 11px;
+    height: 40px;
+     width: 277px;
+ }
+ button
+ {
+    background-color: black;
+    height: 50px;
+    width: 172px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 155px;
+    margin-top: 29px;
+    color: aqua;
+    border-color: lightseagreen;
+    font-weight: 600;
+    
+ }
+ #l
+ {
+  margin-top: 10px;
+ }
+ a
+ {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: beige;
+    margin-left: 0px;
+ }
+  img{
+    border-radius: 50%;
+     margin-left: 18px;
+     transition: transform 0.3s ease, filter 0.3s ease;
+    
+  }
+  h3
+  {
+    text-align: center;
+    color: aquamarine;
+    margin:2px;
+    background-color:rgb(100, 100, 100);
+    position: relative;
+    margin-bottom: -57px;
+    margin-top: 10px;
+    width:305px;
+    height: 38px;
+    border-radius: 8px;
+    padding-top: 10px;
+    font: size 10px;
+     font-weight: 600;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+     border: 2px solid transparent; /* Add transparent border */
+     border-color: aqua;
+  }
+  
+  img:hover {
+   transform: scale(1.1); /* Scale up the image by 10% when hovered over */
+   filter: hue-rotate(90deg); /* Rotate the hue to change color */
+}
+ 
+ 
